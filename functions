@@ -1,0 +1,16 @@
+def announce(f):
+    def wrapper():
+        print("Hello, world!")
+        print("My name is Niyo Lynate")
+        f()
+        print("I am a new bea")
+        print("Tell me about your best programming language in the commit")
+        print("The tech world is a big one, i prefer learning piece by piece daily.")
+    return wrapper
+
+@announce
+def hello():
+    print("I want to keep trying even when its really hard. ")
+    print("In the beginning it was like a dream. now, i feel so good")
+    print("can use some help, from you my friend")
+hello()
